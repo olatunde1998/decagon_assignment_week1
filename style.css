@@ -177,3 +177,56 @@ img {
 .trial-words {
   padding-top: 8px;
 }
+
+@media only screen and (max-width: 760px){
+  .card-boxes {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 2px solid rgb(217, 143, 47); */
+    width: 100%;
+  }
+  .card {
+    /* border: 2px solid rgb(36, 33, 207); */
+    padding: 20px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto 20px auto;
+  }
+  .bottom-container {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+  }
+  .simple {
+    /* border: 2px solid ; */
+    font-size: 3vh;
+  }
+  .growing {
+    line-height: 24px;
+    font-size: 1.8vh;
+    color: rgb(131, 130, 130);
+  }
+  .monthly-container {
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+  .trial-btn {
+    /* border: 3px solid purple; */
+    padding: 18px;
+  }
+  .fa-twitter {
+    color: rgba(29, 173, 235, 1);
+    font-size: 24px;
+  }
+  .trial-twitter {
+    color: white;
+    margin-right: 30px;
+    font-size: 24px;
+  }
+}
